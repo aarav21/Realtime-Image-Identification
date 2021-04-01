@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title>Realtime Face Recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body style="background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
+  <center>
+  <div id="main-1" style="height:40%; border-radius: 25px; margin-top: 20px; width: 90%; background-color: #13849677;"  class = " btn">
+    <h2 style="padding-top: 50px; color: azure;">Realtime Face Recognition</h2> 
+    <br>
+    <div id="main-2" style="height:40%; border-radius: 25px; width: 70%; background-color:#f19eaf  !important ; " class="btn btn-light">
+    <h4>Model is trained on:</h4>
+    <br>
+    <div class="btn" style="background-color: #2b2e4ad8; width: 60%; color:aliceblue" >
+      <h4>Larry | Louis CK | James Gandolfini | Rown Atkinson</h4>
+    </div>  
+    <br>
+    <br>
+    
+    </div>
+  </div>
+  <br>
+  <br>
+  <div id = "main3" class= " btn btn-dark" style=" border-radius: 25px; width: 20%; background-color:#F19EAF;" >
+      
+    <p class=" btn btn-danger">
+      Name:
+      <span id="resultName"></span>
+    </p>
+    <br>
+    <p class=" btn btn-danger">
+      Accuracy:
+      <span id="resultName"></span>
+    </p>
+    
+    
+    
+  </div>
+  </center>
+  <div class="footer">
+  Made by Aarav Rajpal;  
+  </div>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
